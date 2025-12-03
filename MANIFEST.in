@@ -1,0 +1,59 @@
+# MANIFEST.in - Specifies additional files to include in the distribution
+
+# Include documentation files
+include README.md
+include LICENSE
+
+
+# Include requirements files
+include requirements.txt
+include pyproject.toml
+
+# Include Colab notebook
+include Shifaa_Examples.ipynb
+
+# Include all README files in subpackages
+recursive-include src/shifaa *.md
+
+# Include JSON configuration files
+recursive-include src/shifaa *.json
+
+# Include example files (optional - user can access from repo)
+recursive-include examples *.py
+recursive-include examples *.ipynb
+
+# Exclude Python cache and build artifacts
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude *.egg-info
+
+# Exclude test files from distribution
+prune tests
+recursive-exclude tests *
+
+# Exclude git and IDE files
+global-exclude .git*
+global-exclude .vscode
+global-exclude .idea
+global-exclude *.swp
+global-exclude *.swo
+
+# Exclude build directories
+prune build
+prune dist
+prune .eggs
+
+# Exclude coverage and pytest cache
+prune htmlcov
+prune .coverage
+prune .pytest_cache
+prune .mypy_cache
+prune .tox
+
+# Exclude vector databases and model caches
+recursive-exclude * *.db
+recursive-exclude * *.sqlite3
+prune vector_db
+prune .shifaa
