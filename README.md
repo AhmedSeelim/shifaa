@@ -371,7 +371,6 @@ This project is licensed under the MIT License.
 - **GitHub:** [github.com/AhmedSeelim/shifaa](https://github.com/AhmedSeelim/shifaa)
 - **HuggingFace:** [huggingface.co/Ahmed-Selem](https://huggingface.co/Ahmed-Selem)
 - **PyPI:** [pypi.org/project/shifaa](https://pypi.org/project/shifaa)
-- **Documentation:** [shifaa.readthedocs.io](https://shifaa.readthedocs.io)
 - **Colab Notebook:** [Try Shifaa in Colab](https://colab.research.google.com/github/AhmedSeelim/shifaa/blob/main/Shifaa_Examples.ipynb)
 
 ---
@@ -379,7 +378,6 @@ This project is licensed under the MIT License.
 ## 💬 Support
 
 - **Issues:** [GitHub Issues](https://github.com/AhmedSeelim/shifaa/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/AhmedSeelim/shifaa/discussions)
 - **Email:** ahmedselimmahmoud1@gmail.com
 
 ---
@@ -406,7 +404,5 @@ If you find Shifaa useful, please consider giving it a star ⭐
 <div align="center">
 
 **Made with ❤️ for the MENA healthcare community**
-
-[⬆ Back to Top](#-shifaa---arabic-medical-ai-platform)
 
 </div>
